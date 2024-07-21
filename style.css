@@ -12,3 +12,28 @@
     background-position: 50% 50%;
     background-size: cover;
 }
+.bold {
+    font-weight: bold;
+}
+
+@keyframes begin {
+    0%{
+        opacity: 0.2;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes change {
+    0%{
+        opacity: 0.2;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+body {
+    animation: begin 1.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
