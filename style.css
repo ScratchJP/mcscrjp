@@ -37,3 +37,7 @@
 body {
     animation: begin 1.6s cubic-bezier(0.25, 1, 0.5, 1);
 }
+
+.wp4k {
+    font-weight: 400;
+}
