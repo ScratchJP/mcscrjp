@@ -10,6 +10,7 @@ function rd(_link) {
         if (e > 80) {
             clearInterval(ca);
             location.href = _link;
+            document.body.style.animation = "begin 1.6s cubic-bezier(0.25, 1, 0.5, 1);";
         }
     }, 1);
 }
