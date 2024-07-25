@@ -10,12 +10,12 @@ function rd(_link) {
         e = Math.round(e * 100) / 100;
         if (e > 80 && l === false) {
             location.href = _link;
-            document.body.style.animation = "begin 1.6s cubic-bezier(0.25, 1, 0.5, 1);";
             l = true;
         }
-        if (e > 3600) {
+        if (e > 2000) {
             clearInterval(ca);
             document.body.style.opacity = undefined;
+            document.body.style.animation = "begin 1.6s cubic-bezier(0.25, 1, 0.5, 1);";
         }
     }, 1);
 }
