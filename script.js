@@ -3,6 +3,7 @@ function rd(_link) {
     let e = 0;
     const g = new Date().getTime();
     let l = false;
+    clearInterval(ca);
     const ca = setInterval(function(){
         document.body.style.animation = undefined;
         document.body.style.opacity = 1 - easeOutQuart(e / 100);
