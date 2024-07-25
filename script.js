@@ -13,7 +13,7 @@ function rd(_link) {
             document.body.style.animation = "begin 1.6s cubic-bezier(0.25, 1, 0.5, 1);";
             l = true;
         }
-        if (e > 2400) {
+        if (e > 3600) {
             clearInterval(ca);
             document.body.style.opacity = undefined;
         }
