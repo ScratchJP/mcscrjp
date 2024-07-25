@@ -36,8 +36,15 @@
 
 body {
     animation: begin 1.6s cubic-bezier(0.25, 1, 0.5, 1);
+    overflow-x: hidden;
 }
 
 .wp4k {
     font-weight: 400;
+}
+
+.m4jmcs {
+    
+    color: #7d7d7d;
+    font-size: small;
 }
