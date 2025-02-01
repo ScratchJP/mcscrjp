@@ -33,8 +33,8 @@ As.forEach(i => {
             }
             if (tu.pathname === location.pathname) return;
             e.preventDefault();
-            const dbs = document.body.style;
-            dbs.opacity = 0;
+            document.body.classList.remove("load")
+            setInterval(() => document.body.style.opacity = 0)
             setTimeout(() => location.href = e.target.href, 300)
         } catch (er) {
             console.error(er)

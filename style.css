@@ -35,10 +35,13 @@
 }
 
 body {
-    animation: begin 1.6s cubic-bezier(0.25, 1, 0.5, 1);
     overflow-x: hidden;
-    opacity: 1;
     transition: opacity .3s cubic-bezier(0.25, 1, 0.5, 1);
+    opacity: 1;
+}
+
+.load {
+    animation: begin 1.6s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
 .wp4k {
