@@ -1,4 +1,4 @@
-function rd(_link) {
+/*function rd(_link) {
     let d = .3;
     let e = 0;
     const g = new Date().getTime();
@@ -19,10 +19,14 @@ function rd(_link) {
             document.body.style.animation = "begin 1.6s cubic-bezier(0.25, 1, 0.5, 1);";
         }
     }, 1);
-}
-
-
-// https://easings.net/#easeOutQuart
-function easeOutQuart(x) {
-    return 1 - Math.pow(1 - x, 4);
-}
+}*/
+const As = document.querySelectorAll('a:not([target])');
+As.forEach(i => {
+    i.addEventListener("click", e => {
+        if (e.ctrlKey||e.metaKey||e.altKey||e.shiftKey) return;
+        e.preventDefault();
+        console.log(e.target.href)
+        document.body.style.opacity = 0;
+        setTimeout(() => location.href = e.target.href, 300)
+    })
+})
