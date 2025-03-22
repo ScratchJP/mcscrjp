@@ -1,0 +1,66 @@
+[
+  {
+    "name": "ScJP市",
+    "image":    "/assets/scjp.png",
+    "nightimg": "/assets/scjp2.png",
+    "url": "/region/scjp"
+  },
+  {
+    "name": "阿斑市",
+    "image":    "/assets/aspou.png",
+    "nightimg": "/assets/aspou2.png",
+    "url": "/region/aspou"
+  },
+  {
+    "name": "乱歩市",
+    "image":    "/assets/ram3.png",
+    "nightimg": "/assets/ram.png",
+    "url": "/region/rampo"
+  },
+  {
+    "name": "陸果町",
+    "image":    "/assets/rikubate2.png",
+    "nightimg": "/assets/rikubate.png",
+    "url": "/region/rikubate"
+  },
+  {
+    "name": "望洋市",
+    "image":    "/assets/bouyou2.png",
+    "nightimg": "/assets/bouyou.png",
+    "url": "/region/boyo"
+  },
+  {
+    "name": "実機村",
+    "image":    "/assets/jikkimura.png",
+    "nightimg": "/assets/jikky.png",
+    "url": "/region/jk"
+  },
+  {
+    "name": "ysタウン",
+    "image":    "/assets/ystown.png",
+    "url": "/region/ys"
+  },
+  {
+    "name": "すいこん島",
+    "image":    "/assets/suikelp.png",
+    "nightimg": "/assets/suikelp2.png",
+    "url": "/region/suikelp"
+  },
+  {
+    "name": "あぁるごんアイランド",
+    "image":    "/assets/arlgonIsland.png",
+    "nightimg": "/assets/arlgon.png",
+    "url": "/region/arlgonIsland"
+  },
+  {
+    "name": "凛市",
+    "image":    "/assets/lin2.png",
+    "nightimg": "/assets/lin.png",
+    "url": "/region/lin"
+  },
+  {
+    "name": "ネザー岩盤上",
+    "image":    "/assets/netherRoof.png",
+    "url": "/region/nether_roof"
+  }
+]

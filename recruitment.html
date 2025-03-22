@@ -6,7 +6,10 @@ title: 募集情報
   <div class="col-lg-7 mx-auto py-4 px-2">
     <h1 class="py-4">募集情報の登録</h1>
     <h4>
-      募集情報の登録は<a href="https://discord.com/channels/888638910589206569/1223805848858529914">こちら</a>からお願いします。
+      募集情報の登録は<a
+        href="https://discord.com/channels/888638910589206569/1223805848858529914"
+        rel="noopener noreferrer"
+      >こちら</a>からお願いします。
     <br>応募は個人で、募集者にお申込みください。</h4>
     <div class="py-3"></div>
     <h1>募集情報</h1>
@@ -16,7 +19,8 @@ title: 募集情報
         {% assign mod_result = forloop.index0 | modulo: 3 %}
         {% if forloop.index0 != 0 and mod_result == 0 %}
           </div>
-          <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="py-3"></div>
+          <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-sm-center">
         {% endif %}
         <div class="col">
           <div class="card">

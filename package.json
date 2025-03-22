@@ -1,14 +1,14 @@
 {
   "name": "mcscrjp",
-  "version": "1.0.0",
-  "description": "forked from ramenhimiko1220/scjp_minecraft\\\r ~~***MCSCR.JP DOESN'T WORK, WWW SUBDOMAIN REQUIRED***~~ *apex domain works now*",
-  "main": "script.js",
+  "version": "2.0.0",
+  "description": "Scratch JP Minecraft Server Website",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
   "dependencies": {
     "@11ty/eleventy": "^3.0.0"
   }

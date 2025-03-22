@@ -1,9 +1,9 @@
 [
   { "name": "ホーム", "url": "/", "exact": true },
-  { "name": "地域情報", "url": "/region/" },
-  { "name": "施設情報", "url": "/facility/" },
-  { "name": "鉄道情報", "url": "/railway/" },
-  { "name": "募集情報", "url": "/boshu"},
+  { "name": "地域情報", "url": "/region" },
+  { "name": "施設情報", "url": "/facility" },
+  { "name": "鉄道情報", "url": "/railway" },
+  { "name": "募集情報", "url": "/recruitment"},
   { "name": "サーバー情報", "url": "/server" },
   { "name": "マップ", "url": "https://map.mcscr.jp", "external": true }
 ]

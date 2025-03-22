@@ -1,0 +1,22 @@
+{% extends "../_layouts/default.njk" %}
+{% block content %}
+<div class="py-4">
+  <h4 class="px-5"><a href="/region/">&lt; 地域情報</a></h4>
+  <div class="text-center col-lg-6 mx-auto">
+    <div class="py-1"></div>
+    <h1>{{ title }}</h1>
+    <h6><a
+      href="{{ threadURL }}"
+      target="_blank"
+      rel="noopener noreferrer"
+    >(地域スレッド)</a></h6>
+    <img
+      class="big-img img-fluid px-1 py-4" 
+      src="{{ image }}" 
+      {% if nightimg and nightimg != "" %}
+        nightsrc="{{ nightimg }}"
+      {% endif %}>
+  </div>
+  {{ content | safe }}
+</div>
+{% endblock %}

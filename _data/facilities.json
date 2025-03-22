@@ -1,0 +1,96 @@
+[
+  {
+    "region": "ScJP市",
+    "facilities": [
+      {
+        "name": "阿班銀行本店(001)",
+        "image": "/assets/facilities/aspoubank_001.png",
+        "url": "/facility/scjp/aspoubank_001"
+      },
+      {
+        "name": "ScJP一周年記念館",
+        "image": "/assets/facilities/oneanv.png",
+        "url": "/facility/scjp/oneanv"
+      }
+    ]
+  },
+  {
+    "region": "阿斑市",
+    "facilities": []
+  },
+  {
+    "region": "乱歩村",
+    "facilities": []
+  },
+  {
+    "region": "陸果町",
+    "facilities": [
+      {
+        "name": "ユニバーサルツリーファーム跡",
+        "image": "/assets/facilities/utf.png",
+        "url": "/facility/rikubate/utf"
+      }
+    ]
+  },
+  {
+    "region": "望洋市",
+    "facilities": []
+  },
+  {
+    "region": "実機村",
+    "facilities": []
+  },
+  {
+    "region": "ysタウン",
+    "facilities": []
+  },
+  {
+    "region": "すいこん島",
+    "facilities": [
+      {
+        "name": "クリーパートラップ",
+        "image": "/assets/facilities/suikelp/641.png",
+        "url": "/facility/suikelp/creeper_farm"
+      },
+      {
+        "name": "ツリーファーム・骨粉ファーム",
+        "image": "/assets/facilities/suikelp/642.png",
+        "url": "/facility/suikelp/tbmf"
+      },
+      {
+        "name": "カボチャファーム",
+        "image": "/assets/facilities/suikelp/643.png",
+        "url": "/facility/suikelp/pumpkin_farm"
+      },
+      {
+        "name": "サトウキビファーム",
+        "image": "/assets/facilities/suikelp/644.png",
+        "url": "/facility/suikelp/sugar_cane_farm"
+      },
+      {
+        "name": "レールファーム",
+        "image": "/assets/facilities/suikelp/645.png",
+        "url": "/facility/suikelp/rail_farm"
+      },
+      {
+        "name": "ベリーファーム",
+        "image": "/assets/facilities/suikelp/646.png",
+        "url": "/facility/suikelp/berry_farm"
+      },
+      {
+        "name": "村人増殖装置",
+        "image": "/assets/facilities/suikelp/647.png",
+        "url": "/facility/suikelp/villager_duper"
+      },
+      {
+        "name": "アイアンファーム",
+        "image": "/assets/facilities/suikelp/648.png",
+        "url": "/facility/suikelp/iron_farm"
+      }
+    ]
+  },
+  {
+    "region": "ネザー岩盤上",
+    "facilities": []
+  }
+]

@@ -5,13 +5,13 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "command": "npx @11ty/eleventy --serve",
+      "command": "npm start",
       "name": "Run local server",
       "request": "launch",
       "type": "node-terminal"
     },
     {
-      "command": "npx @11ty/eleventy",
+      "command": "npm run build",
       "name": "Build website",
       "request": "launch",
       "type": "node-terminal"
