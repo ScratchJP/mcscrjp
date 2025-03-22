@@ -2,7 +2,7 @@
 <small>_forked from ramenhimiko1220/scjp_minecraft_</small>
 
 > [!IMPORTANT]
-> v2.0.0から、このサイトは[Eleventy](https://11ty.dev)を使用するようになりました。
+> v2.0.0から、このサイトは[Eleventy](https://11ty.dev)を使用するようになりました。\
 > 編集者へ：サイトを反映させるときは、Eleventyでサイトを生成して`./_site`をコミットしてください。
 
 ### 環境設備
