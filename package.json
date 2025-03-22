@@ -1,0 +1,15 @@
+{
+  "name": "mcscrjp",
+  "version": "1.0.0",
+  "description": "forked from ramenhimiko1220/scjp_minecraft\\\r ~~***MCSCR.JP DOESN'T WORK, WWW SUBDOMAIN REQUIRED***~~ *apex domain works now*",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}
