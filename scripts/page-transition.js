@@ -20,3 +20,9 @@ As.forEach(i => {
         }
     })
 })
+
+window.addEventListener('pageshow', e => {
+    if (performance.getEntriesByType("navigation")[0].type === 'back_forward') {
+        document.body.style.opacity = 1;
+    }
+});
