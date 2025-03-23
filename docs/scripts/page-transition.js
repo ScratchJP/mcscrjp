@@ -23,7 +23,7 @@ As.forEach(i => {
 })
 
 window.addEventListener('pageshow', e => {
-    if (performance.getEntriesByType("navigation")[0].type === 'back_forward') {
+    if (["reload", 'back_forward'].includes(performance.getEntriesByType("navigation")[0].type)) {
         console.log('welcome back...')
         try { clearInterval(inter) } catch (er) { console.error(er) }
         document.body.style.opacity = 1;
