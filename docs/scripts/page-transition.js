@@ -6,7 +6,7 @@ As.forEach(i => {
             const tu = new URL(e.target.href)
             if (tu.host !== location.host) {
                 e.preventDefault()
-                window.open(e.target.href, "_blank").focus()
+                window.open(e.target.href, "_blank", "noreferrer").focus()
                 return;
             }
             if (tu.pathname === location.pathname) return;

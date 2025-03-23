@@ -3,7 +3,7 @@
 
 > [!IMPORTANT]
 > v2.0.0から、このサイトは[Eleventy](https://11ty.dev)を使用するようになりました。\
-> 編集者へ：サイトを反映させるときは、Eleventyでサイトを生成して`./_site`をコミットしてください。
+> Eleventyのサイト生成はCloudflare Pagesがやってくれるっぽいので、大丈夫そうです
 
 ### 環境設備
 0. [Node.js](https://nodejs.org)をインストール

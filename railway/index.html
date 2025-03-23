@@ -8,52 +8,28 @@ title: 鉄道情報
     <p>-ScJP鯖内の鉄道情報-</p>
     <div class="py-3"></div>
     <div class="row">
-      <div class="col-sm-6 mb-3 mb-sm-0">
+    {% for item in railway_links %}
+      {% assign mod_result = forloop.index0 | modulo: 2 %}
+      {% if forloop.index0 != 0 and mod_result == 0 %}
+      </div>
+      <div class="row pb-0 py-3">
+        {% else %}
+        {% endif %}
+        <div class="col-sm-6 mb-3 mb-sm-0">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title"><a href="https://discord.com/channels/888638910589206569/1220511932977512609">ScJP鉄道</a></h5>
+            <h5 class="card-title">
+              <a
+                href="{{ item.url }}"
+                target="_blank"
+                rel="noopener noreferrer">
+                {{ item.title }}
+              </a>
+            </h5>
           </div>
         </div>
       </div>
-      <div class="col-sm-6">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title"><a href="https://discord.com/channels/888638910589206569/1220916611184066690">新開地鉄道</a></h5>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row py-3">
-      <div class="col-sm-6 mb-3 mb-sm-0">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title"><a href="https://discord.com/channels/888638910589206569/1220982644448297020">鰻急電鉄</a></h5>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title"><a href="https://discord.com/channels/888638910589206569/1220513928191283320">あぁるごんモノレール</a></h5>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-6 mb-3 mb-sm-0">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title"><a href="https://discord.com/channels/888638910589206569/1220728799927336971">ys鉄道</a></h5>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title"><a href="https://discord.com/channels/888638910589206569/1220510078965252146">乱歩鉄道</a></h5>
-          </div>
-        </div>
-      </div>
+    {% endfor %}
     </div>
     <h1 class="py-3">路線図</h1>
     <h4 class="py-2">路線図は<a
@@ -61,7 +37,11 @@ title: 鉄道情報
         rel="noopener noreferrer"
       >こちら</a>から</h4>
     <br>
-    <img class="big-img img-fluid px-1 py-4" src="/assets/rbk.png">
+    <img
+      class="big-img img-fluid px-1 py-4" 
+      src="/assets/rbk.png"
+      decoding="async"
+    >
     <p>by kickydayodayo</p>
   </div>
 </div>
