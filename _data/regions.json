@@ -53,6 +53,12 @@
     "url": "/region/arlgonIsland"
   },
   {
+    "name": "UXRCF市",
+    "image":    "/assets/uxrcf.png",
+    "nightimg": "/assets/uxrcf2.png",
+    "url": "/region/uxrcf"
+  },
+  {
     "name": "凛市",
     "image":    "/assets/lin2.png",
     "nightimg": "/assets/lin.png",
