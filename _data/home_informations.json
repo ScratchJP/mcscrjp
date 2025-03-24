@@ -1,0 +1,32 @@
+[
+  {
+    "name": "地域情報",
+    "description": "鯖内の地域情報を掲載しています。",
+    "url": "/region",
+    "width": 6
+  },
+  {
+    "name": "施設情報",
+    "description": "鯖内の施設情報を掲載しています。",
+    "url": "/facility",
+    "width": 6
+  },
+  {
+    "name": "地域情報",
+    "description": "鯖内の鉄道情報を掲載しています。",
+    "url": "/railway",
+    "width": 6
+  },
+  {
+    "name": "募集情報",
+    "description": "鯖内の募集情報を掲載しています。",
+    "url": "/recruitment",
+    "width": 6
+  },
+  {
+    "name": "サーバーについて",
+    "description": "ScJPマイクラ鯖に関する情報などを掲載しています。",
+    "url": "/server",
+    "width": 12
+  }
+]

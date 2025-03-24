@@ -1,0 +1,45 @@
+---
+layout: default
+title: 募集情報
+---
+<div class="text-center py-3">
+  <div class="col-lg-7 mx-auto py-4 px-2">
+    <h1 class="py-4">募集情報の登録</h1>
+    <h4>
+      募集情報の登録は<a
+        href="https://discord.com/channels/888638910589206569/1223805848858529914"
+        rel="noopener noreferrer"
+      >こちら</a>からお願いします。
+    <br>応募は個人で、募集者にお申込みください。</h4>
+    <div class="py-3"></div>
+    <h1>募集情報</h1>
+    <div class="py-3"></div>
+    {% for item in recruitments %}
+      <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-sm-center">
+        {% assign mod_result = forloop.index0 | modulo: 3 %}
+        {% if forloop.index0 != 0 and mod_result == 0 %}
+          </div>
+          <div class="py-3"></div>
+          <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-sm-center">
+        {% endif %}
+        <div class="col">
+          <div class="card">
+            <img src="{{ item.banner }}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">{{ item.title }}</h5>
+              <p class="card-title">募集者：{{ item.recruiter }}
+              <br>報酬：{{ item.rewards }}
+              <br>
+              {% if item.description != "" %}
+                募集概要：{{ item.description }}
+              {% else %}
+                &nbsp;
+              {% endif %}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  <div class="py-3"></div>
+</div>
