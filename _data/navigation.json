@@ -5,5 +5,6 @@
   { "name": "鉄道情報", "url": "/railway" },
   { "name": "募集情報", "url": "/recruitment"},
   { "name": "サーバー情報", "url": "/server" },
-  { "name": "マップ", "url": "https://map.mcscr.jp", "external": true }
+  { "name": "マップ", "url": "https://map.mcscr.jp", "external": true },
+  { "name": "利用規約", "url": "https://scratchjp.notion.site/SCJPMinecraft-ce6cd3035a044758939b94355058ee77", "external": true }
 ]
